@@ -12,17 +12,17 @@ extern void utils_hmac_sha1(const char *msg, int msg_len, char *digest, const ch
 extern void utils_hmac_md5(const char *msg, int msg_len, char *digest, const char *key, int key_len);
 
 
-#define PRODUCT_KEY                    "a1BGmFnszAj"
-#define DEVICE_NAME                    "gateway"
-#define DEVICE_SECRET                  "Z9lPWO48TyOg90ykmxfkYK4TdJTiZrDF"
+#define PRODUCT_KEY                    "AmbkTGr3Y9T"
+#define DEVICE_NAME                    "switch001"
+#define DEVICE_SECRET                  "GTmD60StXs62ZlBSH8rbnkb1Yyog5GrL"
 
-#define SUB_1_PRODUCT_KEY              "a1BGmFnszAj"
-#define SUB_1_DEVICE_NAME              "subdev_5"
-#define SUB_1_DEVICE_SECRET            "iJJcce70yMvXaeJzdRGwBzvNXBpI6cxR"
+#define SUB_1_PRODUCT_KEY              "wqHbWKlht4l"
+#define SUB_1_DEVICE_NAME              "sw000000"
+#define SUB_1_DEVICE_SECRET            "iPPWFVsRpaBgtlEK5OMNYDt1852wguaj"
 
-#define SUB_2_PRODUCT_KEY              "a1BGmFnszAj"
-#define SUB_2_DEVICE_NAME              "subdev_6"
-#define SUB_2_DEVICE_SECRET            "N7OyAHhVFHBp4NFfLHLz2nEBXyzrjDEC"
+#define SUB_2_PRODUCT_KEY              "wqHbWKlht4l"
+#define SUB_2_DEVICE_NAME              "sw000001"
+#define SUB_2_DEVICE_SECRET            "cvdwmPEHvXI14wzACztvjlpYkMKyJaiy"
 
 #define MSG_LEN_MAX                    (1024 * 4)
 
