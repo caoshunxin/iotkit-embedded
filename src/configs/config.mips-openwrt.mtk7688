@@ -1,0 +1,8 @@
+CONFIG_ENV_CFLAGS = -Wall
+
+OVERRIDE_CC = mipsel-openwrt-linux-gcc
+OVERRIDE_AR = mipsel-openwrt-linux-ar
+
+#CONFIG_src/platform =
+#CONFIG_sample =
+CONFIG_src/sdk-tests =
